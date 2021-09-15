@@ -5,6 +5,7 @@ import kotlin.math.roundToInt
 interface Parkable {
 
     fun checkOutVehicle(plate: String)
+
     fun onSuccess(payout: Int) {
         println("Payment made correctly for $$payout")
     }

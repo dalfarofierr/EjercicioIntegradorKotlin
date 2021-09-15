@@ -3,7 +3,9 @@ import `class`.Vehicle
 import `class`.VehicleType
 import java.util.*
 
+
 fun main() {
+
     val vehiclesList = listOf<Vehicle>(
         Vehicle("AA111AA", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_001"),
         Vehicle("BB111BB", VehicleType.MOTO_BIKE, Calendar.getInstance()),
